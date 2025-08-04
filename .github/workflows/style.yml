@@ -22,4 +22,4 @@ jobs:
         show-progress: false
     - uses: codespell-project/actions-codespell@master
       with:
-        skip: site/java/
+        paths_ignore: site/java/*
